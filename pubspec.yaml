@@ -1,0 +1,52 @@
+name: flutter_run_finder
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  gpx:
+    git:
+      url: https://github.com/jensen098/dart-gpx/
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  latlong2: ^0.9.0
+  http: ^1.1.2
+  geolocator: ^10.1.0
+  google_fonts: ^6.1.0
+  flutter_map: ^6.0.1
+  path_provider: ^2.1.1
+  open_filex: ^4.3.4
+  flutter_web_auth_2: ^3.0.4
+  shared_preferences: ^2.2.2
+  scrollable_positioned_list: ^0.3.8
+  flutter_launcher_icons: ^0.13.1
+  dio: ^5.4.0
+  envied: ^0.5.2
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+  envied_generator: ^0.5.2
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
