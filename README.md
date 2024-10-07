@@ -21,9 +21,15 @@ See the list of **issues** or select from the list of ToDos below and submit a P
 > This is an open source project - all contrbiutions are welcome (no matter how simple)
 
 ## ToDos
-- T
-- B
-- D
+**User Interface**
+- [ ] Add component to show start & end locations
+
+**Use Cases**
+- [ ] Add use case to generate course maps from start & end locations
+- [ ] Add use case to generate course maps from a total distance (i.e. 5km)
+
+**Logic**
+- [ ] Remove overlapping segments
  
 
 [//]: # (References)
